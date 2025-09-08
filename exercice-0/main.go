@@ -2,11 +2,13 @@ package main
 
 import "fmt"
 
-var i string
+func main() {
+	PrintAlphabet()
+}
 
-func Printalphabet() {
-	for i := "a"; i <= "z"; i++ {
-		fmt.Println("%C")
-		fmt.Println(i)
+func PrintAlphabet() {
+	for i := 'a'; i <= 'z'; i++ {
+		fmt.Printf("%c", i)
 	}
+	fmt.Println("\n")
 }
