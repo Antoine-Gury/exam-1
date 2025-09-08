@@ -3,4 +3,4 @@ func Surprise(s string) bool {     if len(s) < 1 {         return false
 }  func surprise_annexe(a byte) bool {     return (a <= 'z' && a >= 'a') || (a <= 'Z' && a >= 'A') }
 
 énoncé :
-faite une récursive de l'alphabet minuscule et majuscule (doit afficher l'un ou l'autre), la longeur doit dépasser 1 
+faite une récursive de l'alphabet minuscule et majuscule (doit afficher l'un ou l'autre),  vérifie si la longeur dépasse 1 
