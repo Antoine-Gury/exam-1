@@ -8,12 +8,14 @@ func main() {
 
 func AffichagePGCD(a int, b int) int {
 	PGCD := 1
-	for i := 1; i <= 9; i++ {
-		if a/i == b/i {
-			PGCD = i
-			fmt.Printf("%c", i)
+	if a < b {
+		for i := 9; i > 0; i-- {
+			if a%i == 0 && b%i == 0 {
+				PGCD = i
+				fmt.Printf("%c", i)
+			}
 		}
 
 	}
-	return PGCD
+	return
 }
