@@ -3,10 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	PrintAlphabet()
+	printalphabet()
 }
-
-func PrintAlphabet() {
+func printalphabet() {
 	for i := 'a'; i <= 'z'; i++ {
 		fmt.Printf("%c", i)
 	}
