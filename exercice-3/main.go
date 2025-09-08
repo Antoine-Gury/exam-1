@@ -13,5 +13,5 @@ func decimal() {
 		fmt.Printf("%c", i)
 		fmt.Println("\n")
 	}
-
+	return
 }
